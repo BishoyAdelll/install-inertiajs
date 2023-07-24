@@ -84,14 +84,19 @@ createApp({
         .mount(el)
     },
 })
-
+```
 
 ```
 *create directory called Pages inside js folder
+<br>
 *create your vue pages.
+<br>
 *and in your web.php 
+<br>
 *Ex
+<br>
 *return inertia::render(create)
+<br>
 this create its in Pages folder create.vue 
 ```
 *finaly 
