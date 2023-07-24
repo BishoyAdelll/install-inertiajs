@@ -35,10 +35,13 @@ app.blade.php
 ```
 ```
 php artisan inertia:middleware 
+
+```
 * Go to kernel
 ```
 App\Http\MiddleWare\HandleInertiaRequest::class,
 ```
+
 ```
 npm install @inertiajs/vue3
 ```
@@ -49,11 +52,12 @@ npm install vue@next
 npm install @vitejs/plugin-vue
 
 ```
-```
 *in vite.config.js 
-import {vue} from '@vitejs/plugin-vue'
-*and type this after laravel 
 ```
+import {vue} from '@vitejs/plugin-vue'
+
+```
+*and type this after laravel 
 ```
  vue({
             template:{
@@ -90,15 +94,12 @@ createApp({
 *return inertia::render(create)
 this create its in Pages folder create.vue 
 ```
-
-```
 *finaly 
 ```
 php artisan serve 
 npm run dev
 ```
 
-```
 
 
 ## Help
